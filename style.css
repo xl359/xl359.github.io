@@ -1,20 +1,19 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
   margin: 0;
-  background: #f7f9fb;
+  background: #f9f9f9;
   color: #1a1a1a;
   line-height: 1.6;
 }
 
+/* HEADER */
 header {
-  background: #1b4d3e;
+  background: #8C1515;
   color: white;
-  padding: 24px 0;
+  padding: 26px 0;
 }
 
-.header-inner,
-.container,
-.nav {
+.header-inner {
   max-width: 960px;
   margin: 0 auto;
   padding: 0 24px;
@@ -22,72 +21,80 @@ header {
 
 header h1 {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 header p {
   margin: 6px 0 0 0;
-  opacity: 0.95;
+  opacity: 0.9;
 }
 
+/* NAVBAR */
 nav {
   background: white;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 2px solid #8C1515;
 }
 
 .nav {
+  max-width: 960px;
+  margin: 0 auto;
   display: flex;
-  gap: 24px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  flex-wrap: wrap;
+  gap: 28px;
+  padding: 14px 24px;
 }
 
 .nav a {
   text-decoration: none;
-  color: #1b4d3e;
+  color: #8C1515;
   font-weight: 600;
 }
 
 .nav a:hover {
-  text-decoration: underline;
+  color: #B83A3A;
 }
 
+/* MAIN CONTENT */
 .container {
-  padding-top: 36px;
-  padding-bottom: 48px;
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 0 24px;
 }
 
+/* CARDS */
 .card {
   background: white;
-  border-radius: 14px;
+  border-radius: 12px;
   padding: 28px;
-  box-shadow: 0 6px 24px rgba(0,0,0,0.06);
   margin-bottom: 24px;
+  border-left: 5px solid #8C1515;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
 }
 
 h2 {
-  color: #1b4d3e;
   margin-top: 0;
+  color: #8C1515;
 }
 
+/* LINKS */
+a {
+  color: #8C1515;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* LIST */
 ul {
   padding-left: 20px;
 }
 
-.link-list a {
-  color: #cc5500;
-  text-decoration: none;
-}
-
-.link-list a:hover {
-  text-decoration: underline;
-}
-
+/* FOOTER */
 footer {
   max-width: 960px;
-  margin: 0 auto;
-  padding: 24px;
+  margin: 40px auto;
+  padding: 20px;
   color: #666;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
