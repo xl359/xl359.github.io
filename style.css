@@ -29,7 +29,7 @@ header p {
   opacity: 0.9;
 }
 
-/* NAVBAR */
+/* NAV */
 nav {
   background: white;
   border-bottom: 2px solid #8C1515;
@@ -53,7 +53,7 @@ nav {
   color: #B83A3A;
 }
 
-/* MAIN CONTENT */
+/* MAIN */
 .container {
   max-width: 960px;
   margin: 40px auto;
@@ -85,9 +85,44 @@ a:hover {
   text-decoration: underline;
 }
 
-/* LIST */
-ul {
-  padding-left: 20px;
+/* PUBLICATIONS */
+.publication-item {
+  padding: 18px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+}
+
+.publication-title {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.publication-authors {
+  color: #444;
+  margin: 4px 0;
+}
+
+.publication-meta {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.publication-link {
+  margin-top: 4px;
+}
+
+/* FIGURE */
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 8px;
 }
 
 /* FOOTER */
