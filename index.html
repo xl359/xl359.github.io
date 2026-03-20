@@ -4,145 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Xinwei Liu</title>
-
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
-      margin: 0;
-      background: #f8f9fb;
-      color: #1a1a1a;
-      line-height: 1.6;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 60px auto;
-      background: white;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.08);
-    }
-
-    h1 {
-      margin-bottom: 10px;
-      color: #1b4d3e;
-    }
-
-    h2 {
-      margin-top: 40px;
-      color: #1b4d3e;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 5px;
-    }
-
-    .links a {
-      margin-right: 15px;
-      color: #cc5500;
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    .links a:hover {
-      text-decoration: underline;
-    }
-
-    ul {
-      padding-left: 20px;
-    }
-
-    .paper {
-      margin-bottom: 12px;
-    }
-
-    .section {
-      margin-top: 30px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="container">
-
-    <h1>Xinwei Liu</h1>
-    <p>
-      PhD Student in Electrical and Computer Engineering  
-      University of Michigan
-    </p>
-
-    <div class="links">
-      <a href="https://linkedin.com/in/xinwei-liu-632373136">LinkedIn</a>
-      <a href="#">Google Scholar</a>
-      <a href="#">ResearchGate</a>
-      <a href="mailto:xinwei@umich.edu">Email</a>
+  <header>
+    <div class="header-inner">
+      <h1>Xinwei Liu</h1>
+      <p>PhD Student in Electrical and Computer Engineering, University of Michigan</p>
     </div>
+  </header>
 
-    <div class="section">
+  <nav>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="research.html">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="links.html">Links</a>
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="card">
       <h2>About</h2>
       <p>
         I am a PhD student at the University of Michigan working on optimization,
-        machine learning, and control for power and energy systems.
-        My research focuses on integrating data-driven models with optimization
-        frameworks, including applications in electricity markets and data center
-        energy management.
+        control, machine learning, and power and energy systems.
       </p>
-    </div>
+      <p>
+        My research interests include electricity markets, data-driven optimization,
+        dynamic pricing, and decision-making algorithms for modern energy systems.
+      </p>
+    </section>
 
-    <div class="section">
-      <h2>Research Interests</h2>
-      <ul>
-        <li>Optimization and control of power systems</li>
-        <li>Machine learning for energy systems</li>
-        <li>Dynamic pricing and electricity markets</li>
-        <li>Neural networks + optimization (difference-of-convex)</li>
-      </ul>
-    </div>
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:xinwei@umich.edu">xinwei@umich.edu</a></p>
+      <p>
+        <a href="https://linkedin.com/in/xinwei-liu-632373136" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      </p>
+    </section>
+  </main>
 
-    <div class="section">
-      <h2>Publications</h2>
-
-      <div class="paper">
-        <b>Liu, X., Dvorkin, V. (2025)</b><br>
-        Optimization over trained neural networks: Difference-of-convex algorithm  
-        IEEE Control Systems Letters
-      </div>
-
-      <div class="paper">
-        <b>Liu, X., Blanch, J., Walter, T. (2022)</b><br>
-        Satellite clock and ephemeris error uncertainty  
-        ION Conference
-      </div>
-
-      <div class="paper">
-        <b>Liu, X., et al. (2022)</b><br>
-        Error bounding predictability for GNSS integrity  
-        ION GNSS+
-      </div>
-
-    </div>
-
-    <div class="section">
-      <h2>Experience</h2>
-
-      <ul>
-        <li><b>Intel (2024)</b> – Machine Learning / Computer Vision Intern</li>
-        <li><b>University of Michigan</b> – Teaching Assistant (Power Systems)</li>
-        <li><b>Honda Aircraft</b> – Optimization Intern</li>
-      </ul>
-
-    </div>
-
-    <div class="section">
-      <h2>Projects</h2>
-
-      <ul>
-        <li>Online electricity market via primal-dual dynamics</li>
-        <li>Bayesian neural networks via convex optimization</li>
-        <li>Neural network pruning with optimization</li>
-        <li>BERT model extensions</li>
-      </ul>
-
-    </div>
-
-  </div>
+  <footer>
+    © Xinwei Liu
+  </footer>
 </body>
 </html>
